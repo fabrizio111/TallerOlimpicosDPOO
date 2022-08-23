@@ -8,7 +8,7 @@ public class Modificacion
 {
 	public static void main(String[] args) throws FileNotFoundException, IOException 
 	{
-		CalculadoraEstadisticas calc = LoaderOlimpicos.cargarArchivo("./data/atletas.csv");
+		CalculadoraEstadisticas calc = LoaderOlimpicos.cargarArchivo("C:\\Users\\fabri\\OneDrive\\Escritorio\\DPOO\\taller olimpicos\\TallerOlimpicosDPOO\\taller olimpicos\\Taller0_Olimpicos\\data\\atletas.csv");
 		System.out.println(calc.paisConMasMedallistas());
 	}
 	
